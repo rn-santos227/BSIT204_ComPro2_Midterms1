@@ -11,14 +11,6 @@ public class Employee {
         return this.last_name + ", " + this.first_name;
     }
 
-    public String getFirstName() {
-        return this.first_name;
-    }
-
-    public String getLastName() {
-        return this.last_name;
-    }
-
     private String ucfirst(String str) {
         return String.valueOf(str.charAt(0)).toUpperCase() + str.substring(1, str.length());
     }
